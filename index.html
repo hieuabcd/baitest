@@ -21,7 +21,6 @@
 
     <!-- css -->
     <link rel="stylesheet" href="./style.css" />
-
   </head>
   <body>
     <div class="head1">
@@ -32,10 +31,10 @@
     </div>
 
     <div><h2>Thông số kỹ thuật</h2></div>
-    <table>
+    <table id="tb1">
       <tbody>
         <tr>
-          <td>
+          <td class="bg">
             <div class="icon-box1 wow animate__animated animate__bounceInDown">
               <i class="fa-solid fa-file-image fa-2xl"></i>
             </div>
@@ -43,7 +42,7 @@
           <td><p>Kích thước màn hình</p></td>
         </tr>
         <tr>
-          <td>
+          <td class="bg">
             <div class="icon-box2 wow animate__animated animate__backInLeft">
               <i class="fa-solid fa-mobile-screen fa-2xl"></i>
             </div>
@@ -51,7 +50,7 @@
           <td><p>Công nghệ màn hình Super Retina XDR</p></td>
         </tr>
         <tr>
-          <td>
+          <td class="bg">
             <div
               class="icon-box3 wow animate__animated animate__lightSpeedInRight"
             >
@@ -61,7 +60,7 @@
           <td><p>Chipset Apple A19</p></td>
         </tr>
         <tr>
-          <td>
+          <td class="bg">
             <div class="icon-box4 wow animate__animated animate__fadeInUp">
               <i class="fa-solid fa-sd-card fa-2xl"></i>
             </div>
@@ -70,7 +69,22 @@
         </tr>
       </tbody>
     </table>
-        <script src="./main.js"></script>
+    <script src="./main.js"></script>
 
+    <div class="head3">
+      <p>User</p>
+    </div>
+
+    <table border="1" class="tb1">
+      <thead>
+        <th>STT</th>
+        <th>Id</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>age</th>
+        <th id="desc">Description</th>
+      </thead>
+      <tbody id="table"></tbody>
+    </table>
   </body>
 </html>

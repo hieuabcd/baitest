@@ -1,119 +1,138 @@
-      table {
-        width: 100%;
-        border-radius: 15px;
-        border: 1px solid;
-        border-collapse: collapse;
-      }
-      tr td:first-child {
-        background-color: rgb(226, 225, 225);
-        border: 1px solid;
-      }
+table {
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+.bg {
+  background-color: rgb(226, 225, 225);
+  border: 1px solid;
+}
 
-      tr td:last-child {
-        background-color: white;
-        border: 1px solid;
-      }
-      tr td {
-        padding: 15px;
-      }
+tr td {
+  padding: 15px;
+  background-color: white;
+  border: 1px solid;
+}
 
-      td i {
-        width: 20px;
-      }
-      td p {
-        font-size: 30px;
-      }
-      .head1 {
-        background-color: rgb(184, 181, 108);
-      }
-      .head1 {
-        text-align: center;
-        font-size: 20px;
-        padding: 10px;
-        color: rgb(195, 22, 22);
-        font-weight: bold;
-      }
-      .head2 {
-        background-color: rgb(231, 17, 17);
-        padding: 20px;
-      }
-      .head2 p {
-        font-size: 26px;
-        color: white;
-      }
-      div h2 {
-        margin: 10px;
-      }
-      * {
-        margin: 0;
-        padding: 0;
-      }
-      .icon-box1 {
-        width: 60px;
-        height: 60px;
-        background: rgb(84, 156, 159);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-      }
+td i {
+  width: 20px;
+}
+td p {
+  font-size: 30px;
+}
+.head1 {
+  background-color: rgb(184, 181, 108);
+}
+.head1 {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  color: rgb(195, 22, 22);
+  font-weight: bold;
+}
+.head2 {
+  background-color: rgb(231, 17, 17);
+  padding: 20px;
+}
+.head2 p {
+  font-size: 26px;
+  color: white;
+}
+div h2 {
+  margin: 10px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.icon-box1 {
+  width: 60px;
+  height: 60px;
+  background: rgb(84, 156, 159);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
 
-      .icon-box1 i {
-        font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
-        line-height: 1; /* fix lệch baseline */
-      }
-      .icon-box2 {
-        width: 60px;
-        height: 60px;
-        background: rgb(87, 84, 159);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-      }
-      .icon-box2 i {
-        font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
-        line-height: 1; /* fix lệch baseline */
-      }
-      .icon-box3 {
-        width: 60px;
-        height: 60px;
-        background: rgb(195, 28, 207);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-      }
-      .icon-box3 i {
-        font-size: 20px; /* chỉnh nhỏ lại thay vì fa-2xl */
-        line-height: 1; /* fix lệch baseline */
-      }
-      .icon-box4 {
-        width: 60px;
-        height: 60px;
-        background: rgb(194, 11, 14);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: white;
-      }
-      .icon-box4 i {
-        font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
-        line-height: 1; /* fix lệch baseline */
-      }
+.icon-box1 i {
+  font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
+  line-height: 1; /* fix lệch baseline */
+}
+.icon-box2 {
+  width: 60px;
+  height: 60px;
+  background: rgb(87, 84, 159);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.icon-box2 i {
+  font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
+  line-height: 1; /* fix lệch baseline */
+}
+.icon-box3 {
+  width: 60px;
+  height: 60px;
+  background: rgb(195, 28, 207);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.icon-box3 i {
+  font-size: 20px; /* chỉnh nhỏ lại thay vì fa-2xl */
+  line-height: 1; /* fix lệch baseline */
+}
+.icon-box4 {
+  width: 60px;
+  height: 60px;
+  background: rgb(194, 11, 14);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.icon-box4 i {
+  font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
+  line-height: 1; /* fix lệch baseline */
+}
 .head2 {
   overflow: hidden;
   position: relative;
   height: 30px;
-  
 }
 
 #title {
   position: absolute;
   white-space: nowrap;
-  left: 100%;   /* bắt đầu từ ngoài bên phải */
+  left: 100%; /* bắt đầu từ ngoài bên phải */
+}
+
+.head3 {
+  background-color: rgb(71, 59, 149);
+  padding: 10px;
+}
+.head3 p {
+  font-size: 30px;
+  color: white;
+}
+
+.tb1 tr th {
+  text-align: left;
+  border: 1px solid;
+  font-size: 10px;
+  width: 350px;
+  padding-left: 20px;
+}
+
+.tb1 thead tr th {
+  font-size: 20px;
+  background-color: aquamarine;
 }
