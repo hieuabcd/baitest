@@ -139,7 +139,7 @@ div h2 {
 .icon-box5 {
   width: 60px;
   height: 60px;
-  background: rgb(95, 96, 110);
+  background: rgb(181, 30, 68);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -147,6 +147,6 @@ div h2 {
   color: white;
 }
 .icon-box5 i {
-  font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
+  font-size: 20px; /* chỉnh nhỏ lại thay vì fa-2xl */
   line-height: 1; /* fix lệch baseline */
 }
