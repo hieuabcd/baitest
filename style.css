@@ -58,8 +58,8 @@ div h2 {
 }
 
 .icon-box1 i {
-  font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
-  line-height: 1; /* fix lệch baseline */
+  font-size: 28px; 
+  line-height: 1; 
 }
 .icon-box2 {
   width: 60px;
@@ -72,8 +72,8 @@ div h2 {
   color: white;
 }
 .icon-box2 i {
-  font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
-  line-height: 1; /* fix lệch baseline */
+  font-size: 28px; 
+  line-height: 1; 
 }
 .icon-box3 {
   width: 60px;
@@ -86,8 +86,8 @@ div h2 {
   color: white;
 }
 .icon-box3 i {
-  font-size: 20px; /* chỉnh nhỏ lại thay vì fa-2xl */
-  line-height: 1; /* fix lệch baseline */
+  font-size: 20px; 
+  line-height: 1; 
 }
 .icon-box4 {
   width: 60px;
@@ -100,8 +100,8 @@ div h2 {
   color: white;
 }
 .icon-box4 i {
-  font-size: 28px; /* chỉnh nhỏ lại thay vì fa-2xl */
-  line-height: 1; /* fix lệch baseline */
+  font-size: 28px; 
+  line-height: 1; 
 }
 .head2 {
   overflow: hidden;
@@ -112,7 +112,7 @@ div h2 {
 #title {
   position: absolute;
   white-space: nowrap;
-  left: 100%; /* bắt đầu từ ngoài bên phải */
+  left: 100%; 
 }
 
 .head3 {
@@ -129,7 +129,7 @@ div h2 {
   border: 1px solid;
   font-size: 10px;
   width: 350px;
-  padding-left: 20px;
+  padding-left: 20px; 
 }
 
 .tb1 thead tr th {
@@ -147,6 +147,26 @@ div h2 {
   color: white;
 }
 .icon-box5 i {
-  font-size: 20px; /* chỉnh nhỏ lại thay vì fa-2xl */
-  line-height: 1; /* fix lệch baseline */
+  font-size: 20px; 
+  line-height: 1; 
+}
+
+/* new */
+.icon-box6 {
+  width: 60px;
+  height: 60px;
+  background: rgb(181, 30, 68);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.icon-box6 i {
+  font-size: 20px; 
+  line-height: 1; 
+}
+#promoText{
+  display: inline-block;
+  white-space: nowrap;
 }
