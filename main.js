@@ -168,7 +168,8 @@ async function get100user() {
         <td>${user.first_name}</td>
         <td>${user.last_name}</td>
         <td>${user.age}</td>
-        <td>${generateRandomString(8)}</td>
+        <td>${generateRandomString(2)}</td>
+        <td>${generateRandomString(11)}</td>
 
       </tr>
     `;
@@ -193,6 +194,7 @@ function generateRandomString(length) {
 
 
 
+
 const text1 = document.getElementById("promoText");
 
 const colors = [
@@ -209,10 +211,8 @@ let growing = true;
 
 setInterval(() => {
 
-  // đổi màu chữ
   text1.style.color = colors[index];
 
-  // hiệu ứng phóng to thu nhỏ
   if (growing) {
     scale += 0.02;
     if (scale >= 1.2) growing = false;
