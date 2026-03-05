@@ -196,35 +196,30 @@ function generateRandomString(length) {
 const text1 = document.getElementById("promoText");
 
 const colors = [
-  "#ff4d4d",
-  "#ff9900",
-  "#00ccff",
-  "#66ff66",
-  "#ff66ff"
+  "#ff0000",
+  "#00ff00",
+  "#ffff00",
+  "#00ffff",
+  "#ff00ff",
+  "#ffffff"
 ];
 
 let index = 0;
-let scale = 1;
-let growing = true;
 
 setInterval(() => {
-
   // đổi màu chữ
   text1.style.color = colors[index];
 
-  // hiệu ứng phóng to thu nhỏ
-  if (growing) {
-    scale += 0.02;
-    if (scale >= 1.2) growing = false;
-  } else {
-    scale -= 0.02;
-    if (scale <= 1) growing = true;
-  }
-
-  text1.style.transform = `scale(${scale})`;
-  text1.style.transition = "0.1s";
+  // tạo hiệu ứng phát sáng LED
+  text1.style.textShadow = `
+    0 0 5px ${colors[index]},
+    0 0 10px ${colors[index]},
+    0 0 20px ${colors[index]},
+    0 0 40px ${colors[index]}
+  `;
 
   index++;
-  if (index >= colors.length) index = 0;
-
-}, 120);
+  if (index >= colors.length) {
+    index = 0;
+  }
+}, 150); // càng nhỏ càng nhấp nháy nhanh
